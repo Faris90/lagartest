@@ -299,10 +299,9 @@ io.on('connection', function (socket) {
                 player.hue = 285;
             } else if(player.name.toLowerCase().startsWith("pink")){
                 player.hue = 310;
-            }else if(player.name.toLowerCase().startsWith("black")){
-          player.hue = 44;
-                {
-                currentPlayer = player;
+            }else if(player.name.toLowerCase().startsWith("black")
+                     {
+                     currentPlayer = player;
             currentPlayer.lastHeartbeat = new Date().getTime();
             users.push(currentPlayer);
 
